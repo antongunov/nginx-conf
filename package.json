@@ -15,11 +15,14 @@
   "bugs": {
     "url": "https://github.com/antongunov/nginx-boilerplate/issues"
   },
-  "dependencies": {
-    "dotenv": "^4.0.0"
+  "scripts": {
+    "test": "mocha -r dotenv/config --timeout 7000 tests/*.js"
   },
   "devDependencies": {
+    "dotenv": "^4.0.0",
     "gulp": "github:gulpjs/gulp#4.0",
-    "mustache": "^2.3.0"
+    "mocha": "^3.5.0",
+    "mustache": "^2.3.0",
+    "supertest": "^3.0.0"
   }
 }
