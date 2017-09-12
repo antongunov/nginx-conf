@@ -3,6 +3,8 @@ server {
 
   root {{&rootDir}}/build/;
 
+  include {{&rootDir}}/conf/nginx/snippets/serve-favicon.nginx;
+
   location /assets {
     try_files $uri =404;
   }

@@ -17,4 +17,11 @@ describe('Nginx', () => {
       .expect(204)
       .end(done);
   });
+
+  it('Serving a favicon.ico', (done) => {
+    request
+      .get('/favicon.ico')
+      .expect(200)
+      .end(done);
+  });
 });

@@ -1,6 +1,6 @@
 {
   "name": "@antongunov/nginx-boilerplate",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Nginx boilerplate for integrating with Node.js as a reverse proxy server",
   "private": true,
   "author": {
