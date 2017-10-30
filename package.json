@@ -1,7 +1,7 @@
 {
-  "name": "@antongunov/nginx-boilerplate",
+  "name": "@antongunov/nginx-conf",
   "version": "0.0.1",
-  "description": "Nginx boilerplate for integrating with Node.js as a reverse proxy server",
+  "description": "A collection of snippets and scripts for Nginx",
   "private": true,
   "author": {
     "name": "Anton Gunov",
@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antongunov/nginx-boilerplate.git"
+    "url": "https://github.com/antongunov/nginx-conf.git"
   },
   "bugs": {
-    "url": "https://github.com/antongunov/nginx-boilerplate/issues"
+    "url": "https://github.com/antongunov/nginx-conf/issues"
   },
   "scripts": {
     "test": "mocha -r dotenv/config --timeout 7000 tests/*.js"

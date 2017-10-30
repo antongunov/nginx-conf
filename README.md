@@ -1,6 +1,6 @@
-# Nginx Boilerplate
+# Nginx Configuration
 
-Nginx boilerplate for integrating with Node.js as a reverse proxy server.
+A collection of snippets and scripts for Nginx configuration as a reverse proxy.
 
 ## License
   
