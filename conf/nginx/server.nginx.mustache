@@ -15,6 +15,6 @@ server {
 
   location /api {
     include {{&rootDir}}/conf/nginx/snippets/enable-cors.nginx;
-    proxy_pass http://localhost:{{env.NODE_PORT}}/api;
+    proxy_pass http://localhost:{{env.PROXY_PORT}}/api;
   }
 }
